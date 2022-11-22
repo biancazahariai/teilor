@@ -1,0 +1,70 @@
+.infoContainer{
+    width: 50%;
+    height: 500px;
+    align-self: flex-start;
+}
+
+.checkButton{
+    height: 30px;
+    border-radius: 20px;
+}
+
+.checkButton:hover{
+    background-color: rgb(225, 217, 217);
+}
+
+.listAvailability{
+    margin-top: 20px;
+    height: 220px;
+    overflow-y: auto;
+}
+
+.loaderContainer{
+    padding-top: 20px;
+    height: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loader {
+    border: 8px solid #f3f3f3;
+    border-top: 8px solid #b89b7f;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.storeAddress {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.storeCard:hover{
+    background: rgb(220, 189, 156);
+}
+
+.storeCard{
+    height: 40px;
+    width: 150px;
+    margin-right: 5px;
+    border-radius: 20px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
